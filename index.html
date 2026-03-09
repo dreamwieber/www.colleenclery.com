@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colleen Clery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #1a1a2e;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            padding: 40px 20px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 16px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        .links a {
+            display: block;
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 12px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background 0.2s, transform 0.15s;
+        }
+
+        .links a:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-1px);
+        }
+
+        .links a:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://music.apple.com/us/artist/colleen-clery/1883431383"><img class="avatar" src="album-cover.png" alt="What's It All About - Colleen Clery"></a>
+        <h1>Colleen Clery</h1>
+        <div class="links">
+            <a href="https://music.apple.com/us/artist/colleen-clery/1883431383">Apple Music</a>
+            <a href="https://apps.apple.com/us/app/dial-guitar-tuner/id6758621276">Dial Guitar Tuner</a>
+            <a href="https://apps.apple.com/us/app/polychord/id402625491">Polychord</a>
+        </div>
+    </div>
+</body>
+</html>
